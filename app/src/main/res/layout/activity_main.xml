@@ -39,7 +39,7 @@
                 android:layout_marginTop="50dp"
                 tools:text="First Last"
                 android:textSize="24sp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold"
                 android:textAllCaps="true"/>
 
@@ -63,8 +63,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="50dp"
                 android:text="@string/profile_hobby_header_text"
-                android:textSize="18sp"
-                android:textColor="@color/black"/>
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAllCaps="true"/>
 
             <TextView
                 android:id="@+id/profile_hobby_first"
